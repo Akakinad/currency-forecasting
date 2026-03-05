@@ -426,7 +426,7 @@ jupyter notebook notebooks/04_hybrid_ensemble.ipynb
 
 ## 👤 Author
 
-**Shola Akinade** — Machine Learning Engineer
+**Akakinad**
 
 [![GitHub](https://img.shields.io/badge/GitHub-Akakinad-181717?style=for-the-badge&logo=github)](https://github.com/Akakinad)
 
