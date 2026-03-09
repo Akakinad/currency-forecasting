@@ -2,6 +2,8 @@
 
 > A comprehensive end-to-end forecasting system for SGD/USD and CNY/USD exchange rates using statistical, machine learning, deep learning, and ensemble methods.
 
+[![Streamlit App](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://currency-forecasting-ak.streamlit.app/)
+
 ---
 
 ## 🛠️ Technologies
@@ -426,7 +428,7 @@ jupyter notebook notebooks/04_hybrid_ensemble.ipynb
 
 ## 👤 Author
 
-**Akakinad**
+**Shola Akinade** — Machine Learning Engineer
 
 [![GitHub](https://img.shields.io/badge/GitHub-Akakinad-181717?style=for-the-badge&logo=github)](https://github.com/Akakinad)
 
