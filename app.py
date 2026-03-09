@@ -161,8 +161,8 @@ with tab1:
         df_metrics = df_metrics.style.format({
             "RMSE": "{:.6f}", "MAE": "{:.6f}",
             "MAPE (%)": "{:.4f}", "R²": "{:.4f}", "DA (%)": "{:.2f}"
-        }).highlight_min(subset=["RMSE", "MAE"], color="#d4edda") \
-          .highlight_max(subset=["R²", "DA (%)"], color="#d4edda")
+        }).highlight_min(subset=["RMSE", "MAE"], color="#1a5c2a") \
+          .highlight_max(subset=["R²", "DA (%)"], color="#1a5c2a")
         st.dataframe(df_metrics, use_container_width=True)
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -215,8 +215,8 @@ with tab2:
             df_metrics = df_metrics.style.format({
                 "RMSE": "{:.6f}", "MAE": "{:.6f}",
                 "MAPE (%)": "{:.4f}", "R²": "{:.4f}", "DA (%)": "{:.2f}"
-            }).highlight_min(subset=["RMSE", "MAE"], color="#d4edda") \
-              .highlight_max(subset=["R²", "DA (%)"], color="#d4edda")
+            }).highlight_min(subset=["RMSE", "MAE"], color="#1a5c2a") \
+              .highlight_max(subset=["R²", "DA (%)"], color="#1a5c2a")
             st.dataframe(df_metrics, use_container_width=True)
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -258,8 +258,8 @@ with tab3:
         df_metrics = df_metrics.style.format({
             "RMSE": "{:.6f}", "MAE": "{:.6f}",
             "MAPE (%)": "{:.4f}", "R²": "{:.4f}", "DA (%)": "{:.2f}"
-        }).highlight_min(subset=["RMSE", "MAE"], color="#d4edda") \
-          .highlight_max(subset=["R²", "DA (%)"], color="#d4edda")
+        }).highlight_min(subset=["RMSE", "MAE"], color="#1a5c2a") \
+          .highlight_max(subset=["R²", "DA (%)"], color="#1a5c2a")
         st.dataframe(df_metrics, use_container_width=True)
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -312,8 +312,8 @@ with tab4:
     df_metrics = df_metrics.style.format({
         "RMSE": "{:.6f}", "MAE": "{:.6f}",
         "MAPE (%)": "{:.4f}", "R²": "{:.4f}", "DA (%)": "{:.2f}"
-    }).highlight_min(subset=["RMSE", "MAE"], color="#d4edda") \
-      .highlight_max(subset=["R²", "DA (%)"], color="#d4edda")
+    }).highlight_min(subset=["RMSE", "MAE"], color="#1a5c2a") \
+      .highlight_max(subset=["R²", "DA (%)"], color="#1a5c2a")
     st.dataframe(df_metrics, use_container_width=True)
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -356,9 +356,9 @@ with tab5:
     styled = df_all.style.format({
         "RMSE": "{:.6f}", "MAE": "{:.6f}",
         "MAPE (%)": "{:.4f}", "R²": "{:.4f}", "DA (%)": "{:.2f}"
-    }).highlight_min(subset=["RMSE", "MAE"], color="#d4edda") \
-      .highlight_max(subset=["R²", "DA (%)"], color="#d4edda") \
-      .highlight_min(subset=["R²"], color="#f8d7da")
+    }).highlight_min(subset=["RMSE", "MAE"], color="#1a5c2a") \
+      .highlight_max(subset=["R²", "DA (%)"], color="#1a5c2a") \
+      .highlight_min(subset=["R²"], color="#7a1a1a")
     st.dataframe(styled, use_container_width=True)
 
     st.markdown("---")
